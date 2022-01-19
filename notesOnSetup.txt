@@ -30,4 +30,9 @@ describe("testing add functions", () => {
 
 To test, run "npm test" in your console/
 To run a coverage test, run "npm run coverage" in your console.  On the sidebar, a folder called "coverage" should have been created
-To see a detailed description of coverege, navigate to the index.html in the coverage file and open it in your browser.
+To see a detailed description of coverage, navigate to the index.html in the coverage file and open it in your browser.
+
+Helpful links:
+Methods: https://jestjs.io/docs/api#methods
+To add React: https://jestjs.io/docs/tutorial-react
+Mock functions: https://jestjs.io/docs/mock-functions
