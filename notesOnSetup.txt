@@ -1,0 +1,30 @@
+Create package.json using "npm init" in terminal in correct file directory.
+
+Install jest using "npm install jest" in terminal
+
+Add test commands in package.json under scripts - "test": "jest",
+                                                  "coverage": "jest --coverage"
+You need the quotation marks
+
+
+Add test files using fileName.test.js (add .test between file name and extension)
+
+In test files, require the functions you are testing,
+Use the describe keyword to group similar tests together,
+
+use the test keyword to begin the test, which takes in a description string
+and an anon functions
+
+use the expect keyword with the function and the result
+
+
+example:
+
+const add = require(./add.js);
+
+describe("testing add functions", () => {
+  test("should add two numbers", () => {
+    expect(add(1,2)).toBe(3);
+  })
+})
+
