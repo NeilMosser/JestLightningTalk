@@ -1,0 +1,23 @@
+{
+  "name": "jestlightningtalk",
+  "version": "1.0.0",
+  "description": "How to install and write basic jest tests!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeilMosser/JestLightningTalk.git"
+  },
+  "author": "Neil and Den16/17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeilMosser/JestLightningTalk/issues"
+  },
+  "homepage": "https://github.com/NeilMosser/JestLightningTalk#readme",
+  "dependencies": {
+    "jest": "^27.4.7"
+  }
+}
